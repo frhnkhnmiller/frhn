@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>calculator</title>
+        <link rel="stylesheet" href="stylesssss.css">
+        <script src="script.js"></script>
+    </head>
+<body>
+    <table class="calculator">
+        <tr>
+            <td colspan="5"><input class="displayBox" type="text" id="result" placeholder="0"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="AC" onclick="clearScreen()" id="btn1" class="farhan"></td>
+            <td><input type="button" value="DEL" onclick="clearScreen()" id="btn1" class="farhan"></td>
+            <td><input type="button" value="%" onclick="display('%')" id="khn" class="farhan"></td>
+            <td><input type="button" value="÷" onclick="display('/')" id="khn" class="farhan"></td>
+        </tr>
+        <tr>
+            <td> <input type="button" value="7" onclick="display('7')"  class="farhan"> </td>
+            <td> <input type="button" value="8" onclick="display('8')" class="farhan"> </td>
+            <td> <input type="button" value="9" onclick="display('9')" class="farhan"> </td>
+            <td> <input type="button" value="x" onclick="display('*')" id="khn" class="farhan"> </td>
+        </tr>
+        <tr>
+            <td> <input type="button" value="4" onclick="display('4')" class="farhan"> </td>
+            <td> <input type="button" value="5" onclick="display('5')" class="farhan"> </td>
+            <td> <input type="button" value="6" onclick="display('6')" class="farhan"> </td>
+            <td> <input type="button" value="+" onclick="display('+')" id="khn" class="farhan"> </td>
+        </tr>
+        <tr>
+            <td> <input type="button" value="1" onclick="display('1')" class="farhan"> </td>
+            <td> <input type="button" value="2" onclick="display('2')" class="farhan"> </td>
+            <td> <input type="button" value="3" onclick="display('3')" class="farhan"> </td>
+            <td> <input type="button" value="-" onclick="display('-')" id="khn" class="farhan"> </td>
+        </tr>
+        <tr>
+            <td> <input type="button" value="00" onclick="display('00')" class="farhan"> </td>
+            <td> <input type="button" value="0" onclick="display('0')" class="farhan"> </td>
+            <td> <input type="button" value="." onclick="display('.')" class="farhan"> </td>
+            <td> <input type="button" value="=" onclick="calculate()" id="btn" class="farhan"> </td>
+           
+        </tr>
+ </table>
+</body>
+</html>

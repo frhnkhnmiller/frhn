@@ -1,0 +1,78 @@
+body{
+    background-color:brown;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    border: 2px;
+    width: 95%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.calculator{
+    padding: 20px;
+    border-radius: 2em;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+     background-color: brown;
+    box-shadow: 0px 0px 20px 0px pink;
+    border: 2px solid  brown;
+    
+}
+.displayBox {
+    font-family: sans-serif;
+    border: solid black 0.5px;
+    color: black;
+    width: 90%;
+    height: 60px;
+    border-radius: 100px;
+    font-size: 30px;
+    text-align: right;
+    color: black;
+    background-color:whitesmoke;
+    padding-top: 10px;
+    border: 14px solid brown;
+    box-shadow: 0px 0px 5px 0px pink;
+    cursor:pointer;
+    }
+#btn1{
+    background-color: brown;
+    color: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 60px;
+    border: none;
+}
+#btn{
+    background-color: orange;
+    color: black;
+
+}
+.farhan[type=button] {
+    border: none;
+    width: 70px;
+    height: 70px;
+    border-radius: 60px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 1px  pink;
+    cursor:pointer;
+    font-size: 30px;
+    background-color: brown;
+    color: black;
+    
+}
+#khn{
+    background-color: brown;
+    color: black;
+}
+.farhan:hover{ background-color:rgb(228, 104, 33);
+color: white;
+}
+#btn:hover{background-color:rgb(228, 104, 33);
+color: white;}
+#btn1:hover{background-color: rgb(228, 104, 33);
+color: white;}
+#khn:hover{background-color:rgb(228, 104, 33);
+color: white;}
